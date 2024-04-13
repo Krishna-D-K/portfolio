@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.5rem;
+    color: #727272;
+    font-size: 0.9rem;
+    height: 90%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #267CB9;
+}
+
+a:hover {
+    color: #1269a8;
+}
+hr {
+    border: 0;
+    background: #e5e5e5;
+    height: 1px;
+    margin: 0 0 20px;
+}
+.wrapper {
+    width: 860px;
+    padding: 2rem 0;
+    margin: 1rem auto;
+    height: 100%;
+}
+
+.header {
+    width: 20%;
+    float: left;
+    position: fixed;
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.header p {
+    text-align: center;
+}
+
+.header a h2 {
+    font-size: 1.8rem;
+}
+
+.header img {
+    width: 65%;
+    border-radius: 60%;
+}
+
+.section {
+    width: 60%;
+    float: right;
+    padding-bottom: 50px;
+}
+
+.section h2 {
+    font-size: 1.6rem;
+    color: #222;
+}
+
+.section div h3 {
+    font-size: 1.3rem;
+    color: #222222d0;
+}
+
+.skills {
+    font-style: italic;
+}
+
+.coverImage {
+    margin: 2.5rem 0 0 0;
+}
+
+.coverImage img {
+    width: 100%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .wrapper {
+        width: 90%;
+    }
+    .section {
+        width: 100%;
+    }
+    .section div p img {
+        width: 146px;
+        margin: 0 1px;
+    }
+    .header {
+        position: relative;
+        width: 100%;
+    }
+}
+
+/* Media Query for low-resolution Tablets, iPads */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+    .section {
+        width: 100%;
+    }
+    .section div p img {
+        width: 146px;
+        margin: 0 1px;
+    }
+    .header {
+        position: relative;
+        width: 100%;
+    }
+}
+
+/* Media Query for Tablets iPads landscape mode */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Add your styles here */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* Add your styles here */
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1441px) {
+    /* Add your styles here */
+}
